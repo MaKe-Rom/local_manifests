@@ -5,6 +5,7 @@
   <remote name="Mardon" fetch="https://github.com/MardonHH" />
   <!-- <remote name="cm" fetch="https://github.com/Cyanogenmod" /> -->
   <remote name="make" fetch="https://github.com/MaKe-Rom" />
+  <remote name="msm7x30" fetch="https://github.com" review="review.msm7x30.org" />
 
     
   <!-- sync this repo as vendor extra for custom repopick so the updates.sh script will work -->
