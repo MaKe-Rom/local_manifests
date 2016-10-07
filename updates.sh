@@ -21,23 +21,23 @@ cherries+=(CM_161956)
 # sad selinux 2002
 cherries+=(CM_164156)
 
-# linker: Make text relocations denial optional
-cherries+=(CM_164155)
-
 # Revert "Revert "Reenable support for non-PIE executables""
 cherries+=(CM_164317)
 
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(CM_164318)
 
-# msm7x30: Allow text relocations
-cherries+=(LX_1348)
+# msm7x30: add imgdiff dependency
+cherries+=(LX_1383)
 
-# msm7x30: Switch cpu variant to cortex-a8
-cherries+=(LX_1349)
+# defconfigs: Enable lzma support for kernel and combined ramdis
+cherries+=(LX_1385)
 
-# msm7x30: Reduce recovery resource density
-cherries+=(LX_1350)
+# msm7x30: pack ramdisk with lzma instead of gzip
+cherries+=(LX_1386)
+
+# f2fs: Squashed update from f2fs-stable linux-3.4.y
+cherries+=(LX_1396)
 
 # policy_hal: Update for N
 cherries+=(LX_1353)
