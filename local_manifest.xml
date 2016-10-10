@@ -33,7 +33,6 @@
 
   <!-- CyanogenMod projects to build Arc S-->
   <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" />
-  <project name="CyanogenMod/android_external_stlport" path="external/stlport" />
 
   <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" />
 
