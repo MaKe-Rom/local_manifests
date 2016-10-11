@@ -12,6 +12,8 @@ if [ -f ${android}/updates-local.sh ]; then
     source ${android}/updates-local.sh
 fi
 
+#Cherrys needed for G3
+
 # g3: move to source-built libril
 cherries+=(CM_161595)
 
@@ -36,8 +38,12 @@ cherries+=(CM_159133)
 # g selinux
 cherries+=(CM_161956)
 
+#Cherrys needed for ANZU and G3
+
 # sad selinux 2002
 cherries+=(CM_164156)
+
+#Cherrys needed for ANZU
 
 # Revert "Revert "Reenable support for non-PIE executables""
 cherries+=(CM_164317)
