@@ -29,6 +29,7 @@ cherries+=(CM_162145)
 
 # init: always run baseband-sh
 cherries+=(CM_163467)
+
 # g3 overlays
 cherries+=(CM_159133)
 
@@ -43,21 +44,6 @@ cherries+=(CM_164317)
 
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(CM_164318)
-
-# msm7x30: add imgdiff dependency
-cherries+=(LX_1383)
-
-# defconfigs: Enable lzma support for kernel and combined ramdis
-cherries+=(LX_1385)
-
-# msm7x30: pack ramdisk with lzma instead of gzip
-cherries+=(LX_1386)
-
-# f2fs: Squashed update from f2fs-stable linux-3.4.y
-cherries+=(LX_1396)
-
-# policy_hal: Update for N
-cherries+=(LX_1353)
 
 
 if [ -z $cherries ]; then
