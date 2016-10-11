@@ -51,6 +51,11 @@ cherries+=(CM_164317)
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(CM_164318)
 
+# Allow devices to re-integrate cameraserver and mediaserver
+cherries+=(CM_165008)
+
+# CameraService: Allow to use CameraSource as metadata buffer type
+cherries+=(CM_165140)
 
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
