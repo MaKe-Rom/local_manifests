@@ -9,3 +9,6 @@ cherries+=(LX_1370)
 
 # init: set default interactive max cpu clock @1,4GHz
 cherries+=(LX_1371)
+
+# Use Camera HAL1
+cherries+=(LX_1404)
