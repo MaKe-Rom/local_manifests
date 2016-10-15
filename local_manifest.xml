@@ -12,7 +12,8 @@
   <project name="local_manifests" path="vendor/extra" remote="make" />
   
  <!-- proprietary for LG G2/G3 and common qcom device -->
-  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.0" />
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge_old" remote="github" revision="cm-14.0" />
+  <project name="firebird11/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.0" />
 
 <!-- LegacyXperia projects to build Arc S -->
   <project name="LegacyXperia/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="msm7x30" />
