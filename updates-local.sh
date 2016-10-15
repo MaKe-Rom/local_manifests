@@ -12,3 +12,6 @@ cherries+=(LX_1371)
 
 # Use Camera HAL1
 cherries+=(LX_1404)
+
+# media_profiles: Enable a working true 720p mode
+cherries+=(LX_1406)
