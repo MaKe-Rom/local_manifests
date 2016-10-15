@@ -11,8 +11,8 @@
   <!-- sync this repo as vendor extra for custom repopick so the updates.sh script will work -->
   <project name="local_manifests" path="vendor/extra" remote="make" />
   
-  <!-- proprietary for LG G2/G3 and common qcom device -->
-  <project name="firerbird11/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.0" />
+ <!-- proprietary for LG G2/G3 and common qcom device -->
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.0" />
 
 <!-- LegacyXperia projects to build Arc S -->
   <project name="LegacyXperia/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="msm7x30" />
