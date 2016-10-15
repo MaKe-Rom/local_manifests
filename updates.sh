@@ -63,6 +63,9 @@ cherries+=(CM_165009)
 # CameraService: Allow to use CameraSource as metadata buffer type
 cherries+=(CM_165140)
 
+# temp cam source fix for semc2011
+cherries+=(CM_166099)
+
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
 else
