@@ -45,6 +45,9 @@ cherries+=(CM_164156)
 
 #Cherrys needed for ANZU
 
+# windowmanager: Add support for blur effects
+cherries+=(CM_164162)
+
 # Revert "Revert "Reenable support for non-PIE executables""
 cherries+=(CM_164317)
 
@@ -53,6 +56,9 @@ cherries+=(CM_164318)
 
 # Allow devices to re-integrate cameraserver and mediaserver
 cherries+=(CM_165008)
+
+# allow cameraserver to have the same UID as mediaserver
+cherries+=(CM_165009)
 
 # CameraService: Allow to use CameraSource as metadata buffer type
 cherries+=(CM_165140)
