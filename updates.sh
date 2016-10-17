@@ -12,10 +12,6 @@ if [ -f ${android}/updates-local.sh ]; then
     source ${android}/updates-local.sh
 fi
 
-#Cherrys needed for G3
-
-# g3: move to source-built libril
-cherries+=(CM_161595)
 
 # rild: support to provide RIL V11 ABI if libril is prebuilt
 cherries+=(CM_164393)
@@ -23,22 +19,13 @@ cherries+=(CM_164393)
 # Support setting RIL's socket names via system property
 cherries+=(CM_164952)
 
-# d855: move to source-built libril
-cherries+=(CM_161599)
-
-# diagchar: use diag, not diag_lge
-cherries+=(CM_162145)
-
-# init: always run baseband-sh
-cherries+=(CM_163467)
-
-# g3 overlays
-cherries+=(CM_159133)
-
-# g selinux
-cherries+=(CM_161956)
-
 #Cherrys needed for ANZU and G3
+
+# rild: support to provide RIL V11 ABI if libril is prebuilt
+cherries+=(CM_164393)
+
+# Support setting RIL's socket names via system property
+cherries+=(CM_164952)
 
 # sad selinux 2002
 cherries+=(CM_164156)
@@ -68,6 +55,3 @@ cherries+=(CM_166099)
 
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
-else
-    ${android}/vendor/extra/repopick.py -b ${cherries[@]}
-fi
