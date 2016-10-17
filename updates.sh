@@ -12,6 +12,7 @@ if [ -f ${android}/updates-local.sh ]; then
     source ${android}/updates-local.sh
 fi
 
+#Cherrys needed for G3
 
 # rild: support to provide RIL V11 ABI if libril is prebuilt
 cherries+=(CM_164393)
@@ -20,12 +21,6 @@ cherries+=(CM_164393)
 cherries+=(CM_164952)
 
 #Cherrys needed for ANZU and G3
-
-# rild: support to provide RIL V11 ABI if libril is prebuilt
-cherries+=(CM_164393)
-
-# Support setting RIL's socket names via system property
-cherries+=(CM_164952)
 
 # sad selinux 2002
 cherries+=(CM_164156)
