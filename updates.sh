@@ -22,6 +22,9 @@ cherries+=(CM_164952)
 
 #Cherrys needed for ANZU and G3
 
+g3: sepolicy: nougat changes
+cherries+=(CM_161956)
+
 # sad selinux 2002
 cherries+=(CM_164156)
 
