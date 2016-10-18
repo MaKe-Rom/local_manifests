@@ -30,9 +30,6 @@ cherries+=(CM_164156)
 
 #Cherrys needed for ANZU
 
-# windowmanager: Add support for blur effects
-cherries+=(CM_164162)
-
 # Revert "Revert "Reenable support for non-PIE executables""
 cherries+=(CM_164317)
 
