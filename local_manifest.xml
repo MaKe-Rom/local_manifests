@@ -12,7 +12,7 @@
   <project name="local_manifests" path="vendor/extra" remote="make" />
   
  <!-- LG G3 adapted for MaKe -->
-  <project name="proprietary_vendor_lge" path="vendor/lge" remote="make" revision="cm-14.0" />
+  <project name="proprietary_vendor_lge" path="vendor/lge" remote="make" revision="cm-14.1" />
 
     
 <!-- LegacyXperia projects to build Arc S -->
@@ -28,9 +28,9 @@
   <!-- msm7x30 projects to build Arc S -->
   <project name="msm7x30/android_device_qcom_msm7x30-common" path="device/qcom/msm7x30-common" remote="msm7x30" />
 
-  <project name="msm7x30/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" remote="msm7x30" revision="cm-14.0-caf-7x30" />
-  <project name="msm7x30/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="msm7x30" revision="cm-14.0-caf-7x30" />
-  <project name="msm7x30/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" remote="msm7x30" revision="cm-14.0-caf-7x30" />
+  <project name="msm7x30/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm7x30" remote="msm7x30" revision="cm-14.1-caf-7x30" />
+  <project name="msm7x30/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="msm7x30" revision="cm-14.1-caf-7x30" />
+  <project name="msm7x30/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" remote="msm7x30" revision="cm-14.1-caf-7x30" />
 
   <!-- CyanogenMod projects to build Arc S-->
   <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" />
