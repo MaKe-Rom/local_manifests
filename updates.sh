@@ -14,6 +14,15 @@ fi
 
 #Cherrys needed for G3
 
+# diagchar: use diag, not diag_lge
+cherrie+=(CM_167836)
+
+# g3: move to source-built libril
+cherrie+=(CM_167835)
+
+# enable legacy camera fixes
+cherrie+=(CM_167623)
+
 # rild: support to provide RIL V11 ABI if libril is prebuilt
 # cherries+=(CM_164393)
 
@@ -21,7 +30,7 @@ fi
 # cherries+=(CM_164952)
 
 # g3: sepolicy: nougat changes
-# cherries+=(CM_161956)
+cherries+=(CM_167837)
 
 #Cherrys needed for ANZU and G3
 
