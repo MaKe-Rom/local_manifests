@@ -15,13 +15,16 @@ fi
 #Cherrys needed for G3
 
 # diagchar: use diag, not diag_lge
-cherrie+=(CM_167836)
+cherries+=(CM_167836)
 
 # g3: move to source-built libril
-cherrie+=(CM_167835)
+cherries+=(CM_167835)
+
+#d855: g3: move to source-built libril
+cherries+=(CM_167622)
 
 # enable legacy camera fixes
-cherrie+=(CM_167623)
+cherries+=(CM_167623)
 
 # rild: support to provide RIL V11 ABI if libril is prebuilt
 # cherries+=(CM_164393)
