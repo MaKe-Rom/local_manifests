@@ -14,26 +14,20 @@ fi
 
 #Cherrys needed for G3
 
-# diagchar: use diag, not diag_lge
-cherries+=(CM_167836)
+# fix external storage exporting incorrect uid
+cherries+=(CM_168012)
 
-# g3: move to source-built libril
-cherries+=(CM_167835)
+# Flag files as non-mappable
+cherries+=(CM_168371)
 
-#d855: g3: move to source-built libril
-cherries+=(CM_167622)
+# "g3: switch back to thermal-engine"
+cherrie+=(CM_168365)
 
-# enable legacy camera fixes
-cherries+=(CM_167623)
+# overlay: launch assist on home long-press
+cherries+=(CM_167960)
 
-# rild: support to provide RIL V11 ABI if libril is prebuilt
-# cherries+=(CM_164393)
-
-# Support setting RIL's socket names via system property
-# cherries+=(CM_164952)
-
-# g3: sepolicy: nougat changes
-cherries+=(CM_167837)
+# g3-common: Use multithread decode for boot animation
+cherries+=(CM_168485)
 
 #Cherrys needed for ANZU and G3
 
