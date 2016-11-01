@@ -12,16 +12,10 @@ if [ -f ${android}/updates-local.sh ]; then
     source ${android}/updates-local.sh
 fi
 
-#Cherrys needed for G3
-
-# fix external storage exporting incorrect uid
-cherries+=(CM_168012)
-
-# Flag files as non-mappable
-cherries+=(CM_168371)
+#Cherries needed for G3
 
 # "g3: switch back to thermal-engine"
-cherrie+=(CM_168365)
+cherries+=(CM_168365)
 
 # overlay: launch assist on home long-press
 cherries+=(CM_167960)
@@ -29,10 +23,29 @@ cherries+=(CM_167960)
 # g3-common: Use multithread decode for boot animation
 cherries+=(CM_168485)
 
+# selinux permissive
+cherries+=(CM_167624)
+
+# g3: sepolicy: nougat changes
+cherries+=(CM_167837)
+
+# windowmanager: Add support for blur effects
+cherries+=(CM_167370)
+
+# g3: move to source-built libril
+cherries+=(CM_167835)
+
+# d855: move to source-built libril
+cherries+=(CM_167622)
+
+# init: always run baseband-sh
+cherries+=(CM_167787)
+
 #Cherrys needed for ANZU and G3
 
 # sad selinux 2002
 cherries+=(CM_167621)
+
 
 # Cherrys needed for ANZU
 
