@@ -14,6 +14,9 @@ fi
 
 #Cherries needed for G3
 
+# update wiimote drivers
+cherries+=(CM_168411)
+
 # "g3: switch back to thermal-engine"
 cherries+=(CM_168365)
 
