@@ -14,4 +14,4 @@ cherries+=(LX_1473)
 cherries+=(LX_1474)
 
 # Use Camera HAL1
-# cherries+=(LX_1404)
+cherries+=(LX_1481)
