@@ -23,9 +23,6 @@ cherries+=(CM_168365)
 # overlay: launch assist on home long-press
 cherries+=(CM_167960)
 
-# g3-common: Use multithread decode for boot animation
-cherries+=(CM_168485)
-
 # selinux permissive
 cherries+=(CM_167624)
 
