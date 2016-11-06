@@ -17,9 +17,6 @@ fi
 # diagchar: use diag, not diag_lge
 cherries+=(CM_167836)
 
-# Revert "g3: switch back to thermal-engine"
-cherries+=(CM_168365)
-
 # overlay: launch assist on home long-press
 cherries+=(CM_167960)
 
@@ -35,15 +32,8 @@ cherries+=(CM_167370)
 # g3: move to source-built libril
 cherries+=(CM_167835)
 
-# d855: move to source-built libril
-cherries+=(CM_167622)
-
 # init: always run baseband-sh
 cherries+=(CM_167787)
-
-# g3: enable legacy camera fixes
-cherries+=(CM_167623)
-
 
 #Cherrys needed for ANZU and G3
 
