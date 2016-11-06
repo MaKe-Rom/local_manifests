@@ -29,9 +29,6 @@ cherries+=(CM_167624)
 # g3: sepolicy: nougat changes
 cherries+=(CM_167837)
 
-# g3: Rewrite sepolicies
-#cherries+=(CM_168197)
-
 # windowmanager: Add support for blur effects
 cherries+=(CM_167370)
 
