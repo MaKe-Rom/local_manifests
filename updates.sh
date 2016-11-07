@@ -52,10 +52,6 @@ cherries+=(CM_167388)
 # av: Add support for CameraSource as metadata type
 cherries+=(CM_167485)
 
-# Add rules required for TARGET_HAS_LEGACY_CAMERA_HAL1
-cherries+=(CM_167484)
-
-
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
 else
