@@ -29,9 +29,6 @@ cherries+=(CM_167837)
 # windowmanager: Add support for blur effects
 cherries+=(CM_167370)
 
-# g3: move to source-built libril
-cherries+=(CM_167835)
-
 # init: always run baseband-sh
 cherries+=(CM_167787)
 
