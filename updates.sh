@@ -21,10 +21,10 @@ cherries+=(CM_167836)
 cherries+=(CM_167960)
 
 # selinux permissive
-cherries+=(CM_167624)
+# cherries+=(CM_167624)
 
 # g3: sepolicy: nougat changes
-cherries+=(CM_167837)
+# cherries+=(CM_167837)
 
 # windowmanager: Add support for blur effects
 cherries+=(CM_167370)
@@ -48,9 +48,6 @@ cherries+=(CM_167387)
 
 # arm: Allow disabling PIE for dynamically linked executables
 cherries+=(CM_167388)
-
-# av: Add support for CameraSource as metadata type
-cherries+=(CM_167485)
 
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
