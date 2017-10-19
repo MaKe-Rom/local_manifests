@@ -8,7 +8,7 @@
 
     
   <!-- sync this repo as vendor extra for custom repopick so the updates.sh script will work -->
-  <project name="local_manifests" path="vendor/extra" remote="make" />
+  <project name="local_manifests" path="vendor/extra" remote="make" revision="oreo"/>
 
                                                                                                  
  <!-- LG G6 adapted for MaKe -->
