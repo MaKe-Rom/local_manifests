@@ -21,7 +21,6 @@ cherries+=(LAOS_186051)
 # Add kryo support.
 cherries+=(LAOS_185989)
 
-
 # libc: use Cortex-A7/A53 memset on Kryo
 cherries+=(LAOS_185990)
 
@@ -45,7 +44,6 @@ cherries+=(LAOS_186050)
 
 # Add arm neon and mips arch features
 cherries+=(LAOS_186074)
-
 
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
