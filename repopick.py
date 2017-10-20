@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 #
-# Copyright (C) 2013-2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2013-2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -202,6 +201,8 @@ if args.topic:
             url = 'http://review.lineageos.org/changes/?q=topic:%s' % tag
         elif 'LX' in gerrit:
             url = 'http://review.msm7x30.org/changes/?q=topic:%s' % tag
+        elif 'OMNI' in gerrit:
+            url = 'https://gerrit.omnirom.org/changes/?q=topic:%s' % tag
 
         if args.verbose:
             print('Fetching all commits from topic: %s\n' % tag)
@@ -242,6 +243,9 @@ if args.query:
             url = 'http://review.lineageos.org/changes/?q=%s' % pquery
         elif 'LX' in gerrit:
             url = 'http://review.msm7x30.org/changes/?q=%s' % pquery
+        elif 'OMNI' in gerrit:
+            url = 'https://gerrit.omnirom.org/changes/?q=%s' % pquery
+
         if args.verbose:
             print('Fetching all commits using query: %s\n' % pquery)
         f = urllib.request.urlopen(url)
@@ -318,6 +322,9 @@ for argument in args.change_number:
         url = 'http://review.lineageos.org/changes/?q={change}&o={query_revision}&o=CURRENT_COMMIT&pp=0'.format(change=change, query_revision=query_revision)
     elif 'LX' in gerrit:
         url = 'http://review.msm7x30.org/changes/?q={change}&o={query_revision}&o=CURRENT_COMMIT&pp=0'.format(change=change, query_revision=query_revision)
+    elif 'OMNI' in gerrit:
+        url = 'https://gerrit.omnirom.org/changes/?q={change}&o={query_revision}&o=CURRENT_COMMIT&pp=0'.format(change=change, query_revision=query_revision)
+
     if args.verbose:
         print('Fetching from: %s\n' % url)
     try:
@@ -448,6 +455,8 @@ for argument in args.change_number:
         github_remote = 'github'
     elif 'LX' in gerrit:
         github_remote = 'msm7x30'
+    elif 'OMNI' in gerrit:
+        github_remote = 'omnirom'
     if args.verbose:
         print('Trying to fetch the change from GitHub')
     if args.pull:
