@@ -12,12 +12,6 @@ if [ -f ${android}/updates-local.sh ]; then
     source ${android}/updates-local.sh
 fi
 
-# libc: Add kryo specific memcpy
-cherries+=(LAOS_186051)
-
-# Add cortex-a73 support
-cherries+=(LAOS_186075)
-
 # Add kryo support.
 cherries+=(LAOS_185989)
 
@@ -42,8 +36,14 @@ cherries+=(LAOS_186006)
 # Add support for cortex-a73
 cherries+=(LAOS_186050)
 
+# libc: Add kryo specific memcpy
+cherries+=(LAOS_186051)
+
 # Add arm neon and mips arch features
 cherries+=(LAOS_186074)
+
+# Add cortex-a73 support
+cherries+=(LAOS_186075)
 
 if [ -z $cherries ]; then
     echo -e "Nothing to cherry-pick!"
