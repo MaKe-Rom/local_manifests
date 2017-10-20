@@ -37,7 +37,7 @@ cherries+=(LAOS_186004)
 cherries+=(LAOS_186005)
 
 # Make use of specific Kryo targeting in Clang
-cherries+=(LAOS_ 186006)
+cherries+=(LAOS_186006)
 
 # Add support for cortex-a73
 cherries+=(LAOS_186050)
