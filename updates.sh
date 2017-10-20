@@ -12,11 +12,11 @@ if [ -f ${android}/updates-local.sh ]; then
     source ${android}/updates-local.sh
 fi
 
-# Add cortex-a73 support
-cherries+=(LAOS_186075)
-
 # libc: Add kryo specific memcpy
 cherries+=(LAOS_186051)
+
+# Add cortex-a73 support
+cherries+=(LAOS_186075)
 
 # Add kryo support.
 cherries+=(LAOS_185989)
