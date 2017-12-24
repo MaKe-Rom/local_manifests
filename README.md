@@ -1,6 +1,4 @@
-LineageOS for LG G3 d855 & SEMC ANZU
+AOKP for LG G6 H870
 ===============
 
-Local manifest needed to build LineageOS for the LG G3 and SEMC ANZU
-
-
+Local manifest needed to build AOKP for the LG G6
