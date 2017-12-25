@@ -4,6 +4,7 @@
   <remote name="iSchneiderle" fetch="https://github.com/iSchneiderle" />
   <remote name="Mardon" fetch="https://github.com/MardonHH" />
   <remote name="make" fetch="https://github.com/MaKe-Rom" />
+  <remote name="laos" fetch="https://github.com/LineageOS" />
 
   <!-- sync this repo as vendor extra for custom repopick so the updates.sh script will work -->
  +  <project name="local_manifests" path="vendor/extra" remote="make" revision="oreo"/> 
