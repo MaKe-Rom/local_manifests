@@ -10,10 +10,10 @@
                                                                                                 
  <!-- LG G6 adapted for MaKe -->
 <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" />
-<project name="LineageOS/android_device_lge_msm8996-common" path="device/lge/msm8996-common" />
-<project name="LineageOS/android_device_lge_h870" path="device/lge/h870" />
-<project name="LineageOS/android_kernel_lge_msm8996" path="kernel/lge/msm8996" />
-<project name="LineageOS/android_device_lge_g6-common" path="device/lge/g6-common"  />
-<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" />
+<project name="android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="make" revision="oreo"/> 
+<project name="android_device_lge_h870" path="device/lge/h870" remote="make" revision="oreo"/> 
+<project name="android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="make" revision="oreo"/> 
+<project name="android_device_lge_g6-common" path="device/lge/g6-common" remote="make" revision="oreo"/> 
+<project name="android_device_qcom_common" path="device/qcom/common" remote="make" revision="oreo"/> 
 </manifest>
 
