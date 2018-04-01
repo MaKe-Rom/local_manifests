@@ -6,6 +6,9 @@
  <remote name="lineageos" fetch="https://github.com/LineageOS" />
  <remote name="make" fetch="https://github.com/Make-Rom" />
  <remote name="aokp-test" fetch="https://github.com/Aokp-Test" />
+ 
+<!-- sync this repo as vendor extra for custom repopick so the updates.sh script will work -->
+<project name="local_manifests" path="vendor/extra" remote="make" />
 
 <!-- LG G3 adapted for AOKP -->
 <project name="android_device_lge_d855" path="device/lge/d855" remote="aokp-test" branch="oreo" />
