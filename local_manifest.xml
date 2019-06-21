@@ -19,13 +19,13 @@
 <project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="aokp-test" branch="oreo" />
 
 <!-- LG G6 adapted for MaKe -->
-<project name="android_device_lge_h870" path="device/lge/h870" remote="aokp-test" revision="oreo"/> 
-<project name="LineageOS/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="lineage-15.1" />
+<project name="android_device_lge_h870" path="device/lge/h870" remote="github" revision="lineage-16.0"/> 
+<project name="LineageOS/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="lineage-16.0" />
 
 <!-- Common device repos -->
-<project name="LineageOS/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="lineage-15.1" />
-<project name="LineageOS/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="lineage-15.1" />
-<project name="LineageOS/android_device_lge_common" path="device/lge/common" remote="github" revision="lineage-15.1" />
+<project name="LineageOS/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="lineage-16.0" />
+<project name="LineageOS/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="lineage-16.0" />
+<project name="LineageOS/android_device_lge_common" path="device/lge/common" remote="github" revision="lineage-16.0" />
 
 <!-- Qcom Stuff -->
 <project name="android_device_qcom_common" path="device/qcom/common" remote="make" revision="oreo"/> 
