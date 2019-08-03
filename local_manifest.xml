@@ -10,13 +10,6 @@
 <!-- sync this repo as vendor extra for custom repopick so the updates.sh script will work -->
 <project name="local_manifests" path="vendor/extra" remote="make" />
 
-<!-- LG G3 adapted for AOKP -->
-<project name="android_device_lge_d855" path="device/lge/d855" remote="aokp-test" branch="oreo" />
-<project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="aokp-test" branch="oreo" />
-<project name="android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="aokp-test" branch="oreo" />
-
-<!-- LG G3 Common device repos -->
-<project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="aokp-test" branch="oreo" />
 
 <!-- LG G6 adapted for MaKe -->
 <project name="android_device_lge_h870" path="device/lge/h870" remote="github" revision="lineage-16.0"/> 
